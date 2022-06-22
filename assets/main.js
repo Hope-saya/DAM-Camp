@@ -1,9 +1,9 @@
-let btn = document.getElementById("btn");
+
 let theName;
-btn.addEventListener("click", function fetchName(){
+ function fetchName(){
   
-  theName=document.getElementById("name").value;
-  document.getElementById("fetch").innerHTML=theName;
-});
+  theName=document.querySelector("#name").value;
+  document.querySelector("#fetch").innerHTML=theName;
+};
  
 
